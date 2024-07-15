@@ -5,8 +5,10 @@ function stringChop(str, size) {
 	let myStr = []
 	let count = 0;
 	if (str.length == 0) {
-		return myStr[]
+		return myStr
+        //console.log(myStr)
 	}
+	else{
 	for (let i = 0; i < str.length; i++) {
 		chunkString.push(str[i])
         //chunkString = chunkString.join()
@@ -21,6 +23,8 @@ function stringChop(str, size) {
     chunkString = chunkString.join("")
 	myStr.push(chunkString)
     return myStr
+    //console.log(myStr)
+	}
 }
 
 // Do not change the code below

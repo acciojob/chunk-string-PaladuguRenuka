@@ -15,7 +15,7 @@ function stringChop(str, size) {
 			chunkString = []
 		}
 	}
-    chunkString = chunkString.join(" ")
+    chunkString = chunkString.join("")
 	myStr.push(chunkString)
     return myStr
 }

@@ -4,13 +4,16 @@ function stringChop(str, size) {
 	let chunkString = []
 	let myStr = []
 	let count = 0;
+	if (str.length == 0) {
+		return myStr[]
+	}
 	for (let i = 0; i < str.length; i++) {
 		chunkString.push(str[i])
         //chunkString = chunkString.join()
 		count++
 		if (count == size) {
 			count = 0
-            chunkString = chunkString.join(" ")
+            chunkString = chunkString.join("")
 			myStr.push(chunkString)
 			chunkString = []
 		}

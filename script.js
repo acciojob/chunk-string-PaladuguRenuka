@@ -9,6 +9,7 @@ function stringChop(str, size) {
 		if (count == size-1) {
 			count = 0
 			resString.push(chunkString)
+			chunkString = []
 		}
 	}
 	resString.push(chunkString)
@@ -16,6 +17,6 @@ function stringChop(str, size) {
 }
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
+//const str = prompt("Enter String.");
+//const size = prompt("Enter Chunk Size.");
 alert(stringChop(str, size));

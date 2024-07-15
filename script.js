@@ -3,7 +3,7 @@ function stringChop(str, size) {
 	let chunkString = []
 	let myStr = []
 	let count = 0;
-	if (str.length == null) {
+	if (str === null) {
 		return []
     //console.log(myStr)
 	}

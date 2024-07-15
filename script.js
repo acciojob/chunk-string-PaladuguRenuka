@@ -3,8 +3,8 @@ function stringChop(str, size) {
 	let chunkString = []
 	let myStr = []
 	let count = 0;
-	if (str.length == 0) {
-		return myStr
+	if (str.length == null) {
+		return []
     //console.log(myStr)
 	}
 	else{
